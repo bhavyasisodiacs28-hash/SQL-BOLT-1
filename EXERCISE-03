@@ -1,0 +1,16 @@
+1. Find all the Toy Story movies
+Output -> SELECT Title
+          FROM movies
+          WHERE Title LIKE "Toy%";
+2. Find all the movies directed by John Lasseter
+Output -> SELECT Title
+          FROM movies
+          WHERE Director="John Lasseter";
+3. Find all the movies (and director) not directed by John Lasseter
+Output -> SELECT Title, Director
+          FROM movies
+          WHERE Director!="John Lasseter";
+4. Find all the WALL-* movies 
+Output -> SELECT Title
+          FROM Movies
+          WHERE Title LIKE "WALL-_";
